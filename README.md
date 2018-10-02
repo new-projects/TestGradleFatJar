@@ -1,0 +1,2 @@
+# TestGradleFatJar
+TestGradleFatJar
