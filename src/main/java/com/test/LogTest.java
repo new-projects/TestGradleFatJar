@@ -10,9 +10,10 @@ public class LogTest {
     private static final Logger logger = LoggerFactory.getLogger(LogTest.class);
 
     public static void main(String[] args){
+        //System.setProperty(org.slf4j.impl.SimpleLogger.DEFAULT_LOG_LEVEL_KEY, "DEBUG");
         logger.info("Hello world");
-        logger.error("ERROR");
-        logger.debug("debug....");
-        System.out.println(LogTest.class);
+        logger.error("ERROR....");
+        logger.debug("Debug....");
+        //System.out.println(LogTest.class);
     }
 }
