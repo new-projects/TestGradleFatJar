@@ -5,6 +5,6 @@ TestGradleFatJar
 2. Tets how to configure Logger.
 
 Commands to build and run
-cd TestGradleFatJar         # project root dir
-./gradlew clean shadowJar
-java -jar ./build/libs/shadow.jar
+1. cd TestGradleFatJar         # project root dir
+2. ./gradlew clean shadowJar
+3. java -jar ./build/libs/shadow.jar
